@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-green-950 text-white font-Jost tracking-wider;
+}
+.nav-link{
+    @apply text-lg font-bold text-white hover:text-yellow-500 duration-300;
+}
+section {
+    @apply py-20 md:py-28;
+}
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold ;
+}
+.btn{
+    @apply border border-yellow-500 bg-yellow-500  px-5 py-2 rounded-md duration-300 ;
+}
+.btn:hover {
+    @apply opacity-90 text-white;
+}
+.btn span {
+    @apply font-bold;
+}
+.btn_outline {
+    @apply bg-transparent;
+}
+.btn_outline:hover {
+    @apply text-yellow-600;
+}
