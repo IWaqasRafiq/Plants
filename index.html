@@ -29,7 +29,7 @@
         >
           <ul class="flex flex-col items-center gap-8 lg:flex-row">
             <li>
-              <a href="#home" class="nav-link">Home</a>
+              <a href="#home" class="nav-link active">Home</a>
             </li>
             <li>
               <a href="#about" class="nav-link">About</a>
@@ -66,7 +66,7 @@
 
           <div class="flex lg:flex-row items-center sm:flex-col gap-5">
             <!-- Contenet -->
-            <div class="w-full space-y-5 lg:w-1/2">
+            <div class="home_data w-full space-y-5 lg:w-1/2">
               <h1>
                 <span class="text-yellow-500">Plants</span> make a
                 <br />
@@ -76,9 +76,10 @@
                 your environment.
               </h1>
               <p class="text-slate-300 font-Lobster">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos
-                labore nemo saepe aspernatur delectus temporibus porro
-                voluptatem.
+                Bring life indoors with greenery that purifies the air, boosts
+                your mood, and adds natural beauty to your space. Whether it’s a
+                cozy corner or your entire home, indoor plants are a gentle way
+                to care for your environment—and yourself
               </p>
               <div
                 class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10"
@@ -95,7 +96,7 @@
               <p class="text-xs text-slate-300 font-Lobster">
                 You will get 30-days free trial.
               </p>
-              <div class="flex items-center gap-5 text-lg lg:pt-10">
+              <div class="flex items-center gap-5 text-lg lg:pt-8">
                 <i
                   class="ri-facebook-fill text-slate-300 hover:text-yellow-500 duration-300 cursor-pointer"
                 ></i>
@@ -112,7 +113,11 @@
             </div>
             <!-- image -->
             <div class="w-full relative lg:w-1/2">
-              <img src="assets/img/home.png" alt="homeImage" />
+              <img
+                src="assets/img/home.png"
+                alt="homeImage"
+                class="home_image"
+              />
               <div
                 class="absolute -top-10 right-0 opacity-30 xl:top-5 animate-movingY"
               >
@@ -139,7 +144,7 @@
         >
           <!-- Card-01 -->
           <div
-            class="border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300 spayce-y-5"
+            class="service_card border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300 spayce-y-5"
           >
             <div class="flex items-center gap-5">
               <i class="ri-truck-line text-3xl md:text-4xl xl:text-5xl"></i>
@@ -149,13 +154,14 @@
               </p>
             </div>
             <p class="font-Lobster">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Blanditiis, totam hic expedita quisquam dignissimos
+              Get your favorite indoor plants delivered to your doorstep quickly
+              and safely. We ensure your greens arrive fresh, vibrant, and ready
+              to thrive.
             </p>
           </div>
           <!-- Card-02 -->
           <div
-            class="spayce-y-5 border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300"
+            class="service_card spayce-y-5 border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300"
           >
             <div class="flex items-center gap-5">
               <i
@@ -164,29 +170,30 @@
               <p class="md:text-lg font-bold">Great Customer<br />Service</p>
             </div>
             <p class="font-Lobster">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Blanditiis, totam hic expedita quisquam dignissimos
+              Our friendly team is here to help you every step of the way.
+              Questions, concerns, or advice—we’re just a message or call away.
             </p>
           </div>
           <!-- Card-03 -->
           <div
-            class="spayce-y-5 border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300"
+            class="service_card spayce-y-5 border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300"
           >
             <div class="flex items-center gap-5">
               <i class="ri-plant-line text-3xl md:text-4xl xl:text-5xl"></i>
               <p class="md:text-lg font-bold">
-                Orignal <br />
+                Original <br />
                 Plants
               </p>
             </div>
             <p class="font-Lobster">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Blanditiis, totam hic expedita quisquam dignissimos
+              We only source authentic, healthy indoor plants directly from
+              trusted growers. Each plant is handpicked and nurtured to ensure
+              quality you can trust.
             </p>
           </div>
           <!-- Card-04 -->
           <div
-            class="spayce-y-5 border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300"
+            class="service_card spayce-y-5 border border-green-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:translate-y-1 duration-300"
           >
             <div class="flex items-center gap-5">
               <i
@@ -198,15 +205,16 @@
               </p>
             </div>
             <p class="font-Lobster">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Blanditiis, totam hic expedita quisquam dignissimos
+              Enjoy a wide selection of beautiful indoor plants without breaking
+              the bank. Quality greens at pocket-friendly prices—because
+              everyone deserves a touch of nature.
             </p>
           </div>
         </div>
       </div>
 
       <section id="about" class="relative overflow-hidden">
-        <div class="absolute -top-8 -right-12 opacity-50">
+        <div class="about_leaf absolute -top-8 -right-12 opacity-50">
           <img
             src="assets/img/leaf-3.png"
             alt="leaf-3"
@@ -214,7 +222,7 @@
           />
         </div>
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+          class="about_top flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title">About</h2>
           <p class="max-w-2xl">Follow instruction for more</p>
@@ -223,7 +231,7 @@
           <!-- item-01 -->
           <div class="flex flex-col items-center lg:flex-row-reverse gap-5">
             <!-- image  -->
-            <div class="w-full lg:w-1/2">
+            <div class="about_item_1-img w-full lg:w-1/2">
               <img
                 src="assets/img/plant-1.png"
                 alt="about_image"
@@ -231,17 +239,16 @@
               />
             </div>
             <!-- content -->
-            <div class="w-full lg:w-1/2">
+            <div class="about_item_1-content w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3>
                   Make your <span class="text-yellow-300">organic</span> <br />
                   garden
                 </h3>
                 <p class="text-slate-300 font-Lobster">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quasi vero ea dolore optio veritatis sed deleniti, ratione
-                  excepturi laboriosam, cum maiores? Nostrum, eaque sunt ipsam
-                  perferendis pariatur aspernatur fugiat quia corrupti.
+                  Grow your own fresh, chemical-free produce at home. Enjoy
+                  healthy veggies, vibrant herbs, and rich soil—nature’s way of
+                  nourishing both your body and the planet.
                 </p>
               </div>
             </div>
@@ -249,7 +256,7 @@
           <!-- item-02 -->
           <div class="flex flex-col items-center lg:flex-row gap-5">
             <!-- image  -->
-            <div class="w-full lg:w-1/2">
+            <div class="about_item_2-img w-full lg:w-1/2">
               <img
                 src="assets/img/plant-2.png"
                 alt="about_image"
@@ -257,7 +264,7 @@
               />
             </div>
             <!-- content -->
-            <div class="w-full lg:w-1/2">
+            <div class="about_item_2-content w-full lg:w-1/2">
               <div class="space-y-5">
                 <h3>
                   Come with us <br />
@@ -265,10 +272,11 @@
                   your plants.
                 </h3>
                 <p class="text-slate-300 font-Lobster">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quasi vero ea dolore optio veritatis sed deleniti, ratione
-                  excepturi laboriosam, cum maiores? Nostrum, eaque sunt ipsam
-                  perferendis pariatur aspernatur fugiat quia corrupti.
+                  Join hands with us to nurture your indoor oasis. We offer
+                  expert tips, quality plants, and personal guidance to help
+                  your greens flourish. From beginners to plant pros, we’re here
+                  every step—turning your space into a living, breathing
+                  masterpiece filled with health, beauty, and a touch of nature.
                 </p>
               </div>
             </div>
@@ -278,7 +286,7 @@
 
       <section id="popular" class="bg-green-900">
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-40"
+          class="popular_top flex flex-col items-center gap-3 text-center mb-10 md:mb-40"
         >
           <h2 class="title">Your choice plant</h2>
           <p class="max-w-2xl">Follow instruction for more</p>
@@ -381,22 +389,29 @@
         </div>
       </section>
 
-      <section id="review">
+      <section id="review" class="relative mb-20 md:mb-28 overflow-hidden">
+        <div class="review_leaf absolute -top-8 -left-12 opacity-50">
+          <img
+            src="assets/img/leaf-4.png"
+            alt=""
+            class="w-40 md:w-52 xl:w-64"
+          />
+        </div>
+
         <div
-          class="flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
+          class="review_top flex flex-col items-center gap-3 text-center mb-10 md:mb-20"
         >
           <h2 class="title">Customer Review</h2>
           <p class="max-w-2xl">Follow instruction for more</p>
         </div>
 
-        <div class="container">
+        <div class="review_swiper container">
           <div class="swiper py-12">
             <ul class="swiper-wrapper">
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 p-6 rounded-md">
                   <p class="font-Lobster">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident, minus. Commodi unde voluptatem similique quis.
+                    My plants arrived fresh and vibrant. Great packaging and fast delivery. I love how easy it was to order. Highly recommend this shop!
                   </p>
                   <div class="flex items-center">
                     <img
@@ -405,8 +420,8 @@
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-2">
-                      <p class="text-yellow-500 uppercase">John doe</p>
-                      <p>Designer</p>
+                      <p class="text-yellow-500 uppercase">Ayesha K.</p>
+                      <p>Home Gardener</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -415,8 +430,7 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 p-6 rounded-md">
                   <p class="font-Lobster">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident, minus. Commodi unde voluptatem similique quis.
+                    Amazing quality and excellent support. The team helped me pick the right plants for my home. Everything looks beautiful and healthy. Thank you so much!
                   </p>
                   <div class="flex items-center">
                     <img
@@ -425,8 +439,8 @@
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-2">
-                      <p class="text-yellow-500 uppercase">John doe</p>
-                      <p>Designer</p>
+                      <p class="text-yellow-500 uppercase">Omar H.</p>
+                      <p>Interior Designer</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -435,8 +449,7 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 p-6 rounded-md">
                   <p class="font-Lobster">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident, minus. Commodi unde voluptatem similique quis.
+                    Very happy with my purchase! The prices were affordable and the plants were exactly as shown. Will definitely order again. Great experience from start to finish
                   </p>
                   <div class="flex items-center">
                     <img
@@ -445,8 +458,8 @@
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-2">
-                      <p class="text-yellow-500 uppercase">John doe</p>
-                      <p>Designer</p>
+                      <p class="text-yellow-500 uppercase">Sana M.</p>
+                      <p>Plant Enthusiast</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -455,8 +468,7 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 p-6 rounded-md">
                   <p class="font-Lobster">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident, minus. Commodi unde voluptatem similique quis.
+                    Customer service was superb. They answered my questions quickly, and the delivery was on time. My new monstera looks stunning in the living room!
                   </p>
                   <div class="flex items-center">
                     <img
@@ -465,8 +477,8 @@
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-2">
-                      <p class="text-yellow-500 uppercase">John doe</p>
-                      <p>Designer</p>
+                      <p class="text-yellow-500 uppercase">Farha R.</p>
+                      <p>Architect</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -475,8 +487,7 @@
               <li class="swiper-slide">
                 <div class="flex flex-col gap-5 bg-green-900 p-6 rounded-md">
                   <p class="font-Lobster">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident, minus. Commodi unde voluptatem similique quis.
+                    I love shopping here! Each plant was labeled and came with care tips. Perfect for beginners like me. Everything was so smooth and hassle-free.
                   </p>
                   <div class="flex items-center">
                     <img
@@ -485,8 +496,8 @@
                       class="w-12 h-12 rounded-full"
                     />
                     <div class="ml-2">
-                      <p class="text-yellow-500 uppercase">John doe</p>
-                      <p>Designer</p>
+                      <p class="text-yellow-500 uppercase">Mehwish A.</p>
+                      <p>Student</p>
                     </div>
                     <i class="ri-double-quotes-r text-4xl ml-auto"></i>
                   </div>
@@ -499,7 +510,116 @@
       </section>
     </main>
 
+    <footer class="bg-yellow-100 text-green-950 pt-20 pb-10 md:pt-28 relative">
+      <div
+        class="container text-white absolute top-0 left-0 right-0 -translate-y-1/2"
+      >
+        <div class="bg-green-900 px-10 pb-10 space-y-5 rounded-md">
+          <h3 class="pt-4">
+            <span class="text-yellow-500">Subscribe</span> to our newsletter
+          </h3>
+          <div class="flex flex-col md:flex-row gap-1">
+            <input
+              type="email"
+              placeholder="Enter your email"
+              class="w-full px-5 py-3 text-green-900 rounded-md outline-none"
+            />
+            <button
+              class="flex items-center justify-center gap-1 bg-green-950 px-5 py-3 rounded-md hover:opacity-80 duration-300"
+            >
+              <span>Subscribe</span>
+              <i class="ri-send-plane-2-fill"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="footer_icon container mt-16 mb-10">
+        <div class="border-b border-green-500 relative">
+          <div
+            class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto"
+          >
+            <div class="bg-yellow-100 text-lg text-center space-x-2">
+              <i
+                class="ri-facebook-fill hover:text-yellow-500 duration-300 cursor-pointer"
+              ></i>
+              <i
+                class="ri-twitter-x-line hover:text-yellow-500 duration-300 cursor-pointer text-base"
+              ></i>
+              <i
+                class="ri-instagram-line hover:text-yellow-500 duration-300 cursor-pointer"
+              ></i>
+              <i
+                class="ri-linkedin-fill hover:text-yellow-500 duration-300 cursor-pointer"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer_content container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start"
+      >
+        <div>
+          <div class="text-7xl text-green-700 text-center inline-block">
+            <i class="ri-leaf-fill"></i>
+            <p class="font-Lobster text-xl sm:text-2xl">IndorePlants</p>
+          </div>
+        </div>
+        <div>
+          <p class="mb-5 font-bold text-xl">Quick Line</p>
+          <div class="flex flex-col gap-1">
+            <a href="#">Plants</a>
+            <a href="#">Flowers</a>
+            <a href="#">Gardening</a>
+            <a href="#">Seeds</a>
+            <a href="#">Shipping</a>
+          </div>
+        </div>
+        <div>
+          <p class="mb-5 font-bold text-xl">Popular Services</p>
+          <div class="flex flex-col gap-1">
+            <a href="#">Tree Planting</a>
+            <a href="#">Grass Cutting</a>
+            <a href="#">Weeds Control</a>
+            <a href="#">Project</a>
+          </div>
+        </div>
+        <div>
+          <p class="mb-5 font-bold text-xl">Contact us</p>
+          <div class="flex flex-col gap-1">
+            <a href="#">+88 333 78 901</a>
+            <a href="#">merndeveloper.com</a>
+            <br />
+            <p>1234 Tailwind Ave, CSS city, webland,Pakistan</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="copy_right container">
+        <p class="text-center mt-10 opacity-50">
+          Copyright &copy; 2025 LightCode. All rights reserved.
+        </p>
+      </div>
+
+      <div
+        class="footer_floral absolute bottom-0 left-0 opacity-20 pointer-events-none"
+      >
+        <img
+          src="assets/img/floral-1.png"
+          alt="floral_image"
+          class="w-full lg:w-1/2"
+        />
+      </div>
+    </footer>
+    <a
+      href="#"
+      id="scroll-up"
+      class="fixed right-4 -bottom-1/2 bg-yellow-500 shadow-sm inline-block px-3 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300"
+    >
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/scrollreveal.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
